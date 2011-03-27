@@ -1,0 +1,22 @@
+Script details:
+    * Current status: beta
+    * Current version: 0.7
+    * License: WTFPL 2.0
+    * Requires at least: Python 2.6, Django 1.0
+    * Tested with: Python 2.7, Django 1.2
+
+    This script gives the possibility to easy dump the data to a json formated string before a Django database update and then restore what it can
+
+Installation:
+    put db_dump.py into django site root (where manage.py lives)
+
+Usage:
+    execute it from django site root with arguments:
+        * dump - dumps database data to json formated string
+        * restore - restore database data from json formated string
+        * help - show usage help
+
+Changelog:
+    0.7
+        * first released version
+        * beta state
